@@ -1,0 +1,7 @@
+*********** AKARYAKIT ALMA SISTEM YAZILIMI ***********
+****Isletmemizde 3 tip yakit turu vardir (Benzin-Dizel-LPG)
+****Isletmemizde 3 adet pompa vardir bunlardan bazilari daha hizli dolum yapiyor fakat bir o kadarda maliyetliler.
+Pompa1: %%10 ekstra ucret dahilinde %%10 hizli dolum yapiyor
+Pompa2: %%20 ekstra ucret dahilinde %%20 hizli dolum yapiyor
+Pompa3: %%30 ekstra ucret dahilinde %%30 hizli dolum yapiyor
+*********************************************************************************************

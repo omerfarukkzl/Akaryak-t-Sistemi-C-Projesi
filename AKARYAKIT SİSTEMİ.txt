@@ -1,0 +1,29 @@
+--Akaryakıt Alma Sistemi-- 
+
+
+Pompaların doldurma hızı ve ücretleri farklıdır. Yakıt ücretleri yakıt tipine göre ve güncel kura göre değişmektedir.
+1 nolu pompa %10 hızlı dolduruyor fakat %10 ek ücret dahilinde. 2 nolu pomya %20 hızlı dolduruyor fakat %20 ek ücret dahilinde. 3 nolu pompa normal hızda fakat normal fiyat.
+benzin litre fiyatı 25tl, dizel litre fiyatı 20tl, lpg litre fiyatı 10tl.
+
+plaka,p1,p2,p3,benzin,dizel,lpg,YakitMiktari,toplamUcret
+benzin=25,dizel=20,lpg=10
+
+1- BAŞLA
+2- Yakıt almak istediği aracın plakasını gir.
+3- Yakıt alacağı pompa numarasını gir.(1-2-3)
+4- Yakıt tipini gir.(benzin-dizel-lpg)
+5- Almak istediğiniz yakıt miktarını gir.(0-500 lt)
+6- 1 nolu pompa seçilmiş ise
+   a.) benzin seçilmiş ise toplamUcret=(YakitMiktari)*(benzin*1.1) yazdır.
+   b.) dizel seçilmiş ise  toplamUcret=(YakitMiktari)*(dizel*1.1) yazdır.
+   c.) lpg seçilmiş ise   toplamUcret=(YakıtMiktari)*(lpg*1.1) yazdır.
+7- 2 nolu pompa seçilmiş ise
+   a.) benzin seçilmiş ise toplamUcret=(YakitMiktari)*(benzin*1.2) yazdır.
+   b.) dizel seçilmiş ise  toplamUcret=(YakitMiktari)*(dizel*1.2) yazdır.
+   c.) lpg seçilmiş ise   toplamUcret=(YakıtMiktari)*(lpg*1.2) yazdır.
+8- 3 nolu pompa seçilmiş ise
+   a.) benzin seçilmiş ise toplamUcret=(YakitMiktari)*(benzin) yazdır.
+   b.) dizel seçilmiş ise  toplamUcret=(YakitMiktari)*(dizel) yazdır.
+   c.) lpg seçilmiş ise   toplamUcret=(YakıtMiktari)*(lpg) yazdır.
+
+9- BİTİR
